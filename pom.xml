@@ -58,13 +58,15 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				 <configuration>
+                <release>11</release>
+            </configuration>
 			</plugin>
 			<plugin>
 			    <groupId>com.heroku.sdk</groupId>
 			    <artifactId>heroku-maven-plugin</artifactId>
 			    <version>3.0.2</version>
-			    <configuration>
-			    	<appName></appName>
+			    <configuration> 
 			    	<includeTarget>false</includeTarget>
 			    	<includes>
 			    		<includes>${project.build.directory}/${project.artifactId}-${project.version}.jar</includes>
