@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>com.teecup</groupId>
 	<artifactId>shop</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>shop</name>
-	<description>T-Shirt Online store project for Spring Boot</description>
+	<description>T-Shirt Online Store Project</description>
 
 	<properties>
 		<java.version>11</java.version>
